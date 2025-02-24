@@ -13,7 +13,7 @@ price.forEach((pr)=>{total+=parseInt(pr.textContent)});
 
 	table.innerHTML+=`
 	<tr>
-	<td>${total}</td>
+	<td class="ans">${total}</td>
 	</tr>
 	`;
 };
